@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+   
+    <Spinner
+		android:id="@+id/fonts"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content" />
+    	    
+	<SeekBar
+        android:id="@+id/textSize"
+		android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:max="50" />
+    	
+	<TextView
+        android:id="@+id/exampleText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+	    android:gravity="center_horizontal" />
+        
+</LinearLayout>
